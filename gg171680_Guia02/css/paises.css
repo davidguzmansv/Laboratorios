@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color:white
+}
+header{
+    text-align: center;
+}
+
+#Menu{
+    background-color: blue;
+    margin: auto;
+}
+
+#Menu a{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.2rem;
+    text-align: justify;
+}
+img{
+    width: 300px;
+    height: 225px;
+}
+
+h3{
+    font-style: italic;
+}
+
+section{
+    font-family: Helvetica;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+section h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color:yellow;
+}
+
+section p::first-letter {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
