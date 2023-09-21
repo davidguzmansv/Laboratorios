@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Bolsa de trabajo UDB</title>
+	<link href="css/estilo.css" rel="stylesheet"/>
+</head>
+<body>
+	<header>
+		<div class="envoltorio">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo2.png" title="logo" height="42px" /></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="ofertas.html">Ofertas</a></li>
+					<li><a href="consejos.html">Consejos</a></li>
+					<li class="activo"><a href="aplicar.html">Aplicar</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<article class="ofertas_a">
+			<div class="envoltorio">
+				<form action="aplicar.php" method="post" id="form1">
+					<fieldset>
+						<legend>Rellene el formulario</legend>
+						<div>
+							<label for="nombre">Nombre:</label>
+							<input type="text" name="nombre" id="nombre">
+						</div>
+						<div>
+							<label for="apellido">Apelllidos:</label>
+							<input type="text" name="apellidos" id="apellidos">
+						</div>
+						<div>
+							<label for="carnet">Carnet:</label>
+							<input type="text" name="carnet" id="carnet">
+						</div>
+						<div>
+							<label id="etiqueta">Departamento de residencia:</label>
+							<select name="departamento" id="departamento">
+								<option>Ahuachapan</option>
+								<option>Santa Ana/option>
+								<option>Sonsonate</option>
+								<option>Chalatenango</option>
+								<option>La Libertad</option>
+								<option>San Salvador</option>
+								<option>Cuscatlan</option>
+								<option>La paz</option>
+								<option>San Vicente</option>
+								<option>San Miguel/option>
+								<option>Usulutan</option>
+								<option>Cabañas</option>
+								<option>Morazán</option>
+								<option>La Union</option>
+							</Select>
+						</div>
+						<div>
+							<label for="edad">Edad:</label>
+							<input type="text" name="edad" id="edad">
+						</div>
+						<!-- <div>
+							<label for="genero">Género:</label>
+							<input type="text" name="genero" id="genero">
+						</div> -->
+						<p>Género</p>
+						<div>
+							<input type="radio" id="masculino" name="maculino" value="Masculino" checked />
+							<label for="masculino">Masculino</label>
+						  </div>
+						
+						  <div>
+							<input type="radio" id="femenino" name="femenino" value="Femenino" />
+							<label for="femenini">Femenino</label>
+						  </div>
+						<div>
+							<label for="Fechanacimiento">Fecha de nacimiento:</label>
+							<input type="date" name="fechanacimiento" id="fechanacimiento">
+						</div>
+						<div>
+							<label for="telefono">Número de teléfono:</label>
+							<input type="text" name="telefono" id="telefono">
+						</div>
+						<div>
+							<label id="etiqueta">Carrera:</label>
+							<select name="carrera" id="carrera">
+								<option>Técnico en Ingeniería en Computación</option>
+								<option>Técnico en Ingeniería Electrónica</option>
+								<option>Ingeniería en Ciencias de la Computación</option>
+								<option>Ingeniería Eléctrica</option>
+								<option>Ingeniería Industrial</option>
+								<option>Ingeniería Mecánica</option>
+								<option>Licenciatura en diseño gráfico</option>
+								<option>Licenciatura en Turismo</option>
+							</Select>
+						</div>
+						<div>
+							<label for="pretension">Pretension salarial:</label>
+							<input type="text" name="pretension" id="pretension">
+						</div>
+				        <div class="boton">
+							<input type="submit" name="enviar" value="Aplicar">
+						</div>
+						
+					</fieldset>
+				</form>
+					
+			</div>
+		</article>
+		
+	</section>
+	<footer>
+		<p>Creado por: David Eleazar Guzman Guardado gg171680</p>
+	</footer>
+</body>
+</html>
+
+
