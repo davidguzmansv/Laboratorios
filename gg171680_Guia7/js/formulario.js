@@ -33,9 +33,9 @@ el boton limpiar del formaulario
 const limpiarForm = () => {
     inputNombre.value = "";
     inputApellido.value = "";
-    inputFechaNacimiento.value = "";
+    inputFechaNacimiento.value = "01/01/2020";
     inputRdMasculino.checked = false;
-    intputRdFemenino.checked = false
+    intputRdFemenino.checked = false;
     cmbPais.value = 0;
     inputDireccion.value = "";
     inputNombrePais.value = "";
